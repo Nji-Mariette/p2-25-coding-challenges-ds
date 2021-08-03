@@ -1,6 +1,9 @@
-import math
-p1 = [3,6]
-p2 = [4,0]
-distance = math.sqrt(((p1[0]-p2[0])**2)+((p1[1]-p2[1])**2))
 
-print(distance)
+
+x1 = float(input("Enter x1: "))
+y1 = float(input("Enter y1: "))
+x2 = float(input("Enter x2: "))
+y2 = float(input("Enter y2: "))
+
+distance = ( (x2-x1)**2 + (y2-y1)**2 ) ** 0.5
+print('Distance = %f' %(distance))
