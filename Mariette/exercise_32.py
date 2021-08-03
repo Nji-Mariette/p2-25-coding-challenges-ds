@@ -1,4 +1,3 @@
-text = "have a blessed day"
-output = text.title()
-print(output)
 
+text="love you neighbour"
+print(text.capitalize())
