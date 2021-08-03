@@ -1,13 +1,8 @@
-def largest(arr,n):
-    max = arr[0]
+arr=[5,10,15,20,25]
 
-
-    for i in range(1,n):
+max = arr[0]
+for i in range(0,len(arr)):
         if arr[i]>max:
             max= arr[i]
-    return max
 
-arr=[5,10,15,20,25]
-n=len(arr)
-ans=largest(arr,n)
-print("largest in array is", ans)
+print("largest number is:" + str(max))
